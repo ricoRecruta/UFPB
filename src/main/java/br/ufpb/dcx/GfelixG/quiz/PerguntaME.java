@@ -1,4 +1,4 @@
-package br.ufpb.dcx.ayla.quiz;
+package br.ufpb.dcx.GfelixG.quiz;
 
 import java.util.Arrays;
 import java.util.Objects;

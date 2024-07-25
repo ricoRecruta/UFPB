@@ -1,4 +1,4 @@
-package br.ufpb.dcx.ayla.artesanato;
+package br.ufpb.dcx.GfelixG.artesanato;
 
 public class Roupa extends ItemDeArtesanato {
 

@@ -1,4 +1,4 @@
-package br.ufpb.dcx.ayla.quiz;
+package br.ufpb.dcx.GfelixG.quiz;
 
 public abstract class Pergunta implements Comparable<Pergunta> {
     private String enunciado;
