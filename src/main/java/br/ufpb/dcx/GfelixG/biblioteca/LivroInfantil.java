@@ -1,0 +1,26 @@
+package br.ufpb.dcx.GfelixG.biblioteca;
+
+public class LivroInfantil extends Livro{
+
+    private static final String GENERO = "Infantil";
+    private int faixaEtaria;
+
+    public LivroInfantil(String cod, String nome, String autor, int faixaEtaria){
+        super(cod, nome, autor);
+        this.faixaEtaria = faixaEtaria;
+    }
+
+    public LivroInfantil() {this("---", "", "", 0);}
+
+    public int getFaixaEtaria() {
+        return faixaEtaria;
+    }
+
+    public void setFaixaEtaria(int faixaEtaria) {
+        this.faixaEtaria = faixaEtaria;
+    }
+
+    public static String getGENERO() {
+        return GENERO;
+    }
+}

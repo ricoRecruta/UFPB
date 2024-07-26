@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Mudando o nome do pacote">
+      <change afterPath="$PROJECT_DIR$/diagramas/diagramaBiblioteca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Biografia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroFiccao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroInfantil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroRomance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaInteface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,19 +39,28 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2jk0zDOKVGOS7XLSr1qKQXrsd6T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Gabriel F G/UFPB/diagramas",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel F G\UFPB\diagramas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\poo2024-1-main" />
