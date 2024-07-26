@@ -1,16 +1,26 @@
 package br.ufpb.dcx.GfelixG.biblioteca;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class SistemaBiblioteca implements SistemaBibliotecaInteface{
 
     private Map<String, Livro> Livros;
+    public static final String PREFIXO_CODIGO= "C0D";
+
+    public SistemaBiblioteca(){
+        this.Livros = new HashMap<>();
+    }
 
     @Override
-    public boolean cadastraLivro(Livro livro) {
-        //TODO
-        return false;
+    public boolean cadastraLivro(Livro livro) throws JaExisteEsseCodException {
+        if (this.Livros.containsKey(livro.getCodigo())){
+            throw new JaExisteEsseCodException("Já existe um livro cadastrado com o código" + livro.getCodigo());
+        } else {
+            this.Livros.put(livro.getCodigo(), livro);
+            return true;
+        }
     }
 
     @Override

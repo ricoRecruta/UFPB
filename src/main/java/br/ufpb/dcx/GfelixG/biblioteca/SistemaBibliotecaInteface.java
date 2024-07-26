@@ -9,7 +9,7 @@ public interface SistemaBibliotecaInteface {
      * @param livro livro a ser adicinado na lista
      * @return true quando der certo o cadastro e false para o contrario
      */
-    public boolean cadastraLivro(Livro livro);
+    public boolean cadastraLivro(Livro livro) throws JaExisteEsseCodException;
 
     /**
      * Pesquisa os livros de acordo com o gênero passado

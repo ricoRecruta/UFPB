@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Mudando o nome do pacote">
-      <change afterPath="$PROJECT_DIR$/diagramas/diagramaBiblioteca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Biografia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroFiccao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroInfantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroRomance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaInteface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/Test.java" afterDir="false" />
+    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Início do projeto BIBLIOTECA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/JaExisteEsseCodException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaInteface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaInteface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721916600306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Início do projeto BIBLIOTECA">
+      <option name="closed" value="true" />
+      <created>1722017558199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017558199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Obrigado Laisa" />
     <MESSAGE value="Mudando o nome do pacote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mudando o nome do pacote" />
+    <MESSAGE value="Início do projeto BIBLIOTECA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Início do projeto BIBLIOTECA" />
   </component>
 </project>
