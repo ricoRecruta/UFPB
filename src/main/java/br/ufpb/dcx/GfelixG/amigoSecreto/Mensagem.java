@@ -12,6 +12,12 @@ public class Mensagem {
         this.anonima = anonima;
     }
 
+    public Mensagem(String texto, String emailRemetente) {
+        this.texto = texto;
+        this.emailRemetente = emailRemetente;
+        this.anonima = false;
+    }
+
     public String getTextoCompletoAExibir(){
         if (this.anonima){
             return String.format("Texto: %s", this.texto);
