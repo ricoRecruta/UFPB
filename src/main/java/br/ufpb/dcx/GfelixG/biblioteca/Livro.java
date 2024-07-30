@@ -8,15 +8,17 @@ public class Livro implements Comparable<Livro>{
     private String nome;
     private String autor;
     private double preco;
+    private TipoItem tipo;
 
-    public Livro (String cod, String nome, String autor){
+    public Livro (String cod, String nome, String autor, TipoItem tipo){
         this.codigo = cod;
         this.nome = nome;
         this.autor = autor;
+        this.tipo = tipo;
     }
 
     public Livro(){
-        this("---", "", "");
+        this("---", "", "", TipoItem.INDEFINIDO);
     }
 
     public String getCodigo() {
@@ -51,10 +53,18 @@ public class Livro implements Comparable<Livro>{
         this.preco = preco;
     }
 
+    public TipoItem getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoItem tipo) {
+        this.tipo = tipo;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null ||  getClass() != o.getClass()) return false;
         Livro livro = (Livro) o;
         return Objects.equals(codigo, livro.codigo);
     }

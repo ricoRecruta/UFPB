@@ -1,12 +1,10 @@
 package br.ufpb.dcx.GfelixG.biblioteca;
 
 public class Biografia extends Livro{
-
-    private static final String GENERO = "Biografia";
     private String sobre;
 
     public Biografia(String cod, String nome, String autor, String sobre){
-        super(cod, nome, autor);
+        super(cod, nome, autor, TipoItem.BIOGRAFIA);
         this.sobre = sobre;
     }
 
@@ -18,9 +16,5 @@ public class Biografia extends Livro{
 
     public void setSobre(String sobre) {
         this.sobre = sobre;
-    }
-
-    public static String getGENERO() {
-        return GENERO;
     }
 }
