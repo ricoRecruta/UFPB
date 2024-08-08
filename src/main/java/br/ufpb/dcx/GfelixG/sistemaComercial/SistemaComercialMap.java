@@ -18,30 +18,36 @@ public class SistemaComercialMap implements SistemaComercial{
     @Override
     public boolean existeProduto(Produto produto) {
         return false;
+        //TODO
     }
 
     @Override
     public Produto pesquisaProduto(String codigoProduto) throws ProdutoNaoExisteException {
         return null;
+        //TODO
     }
 
     @Override
     public boolean cadastraProduto(Produto produto) {
         return false;
+        //TODO
     }
 
     @Override
     public boolean existeCliente(Cliente cliente) {
         return false;
+        //TODO
     }
 
     @Override
     public Cliente pesquisaCliente(String id) throws ClienteNaoExisteException {
         return null;
+        //TODO
     }
 
     @Override
     public Collection<Produto> pesquisaProdutosDaCategoria(CategoriaProduto categoria) {
         return List.of();
+        //TODO
     }
 }
