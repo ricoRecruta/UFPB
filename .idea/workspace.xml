@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Atualização dos arquivos do projeto AmigoSecreto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/amigoSecreto/AmigoInexistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/amigoSecreto/AmigoJaExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/amigoSecreto/AmigoNaoSorteadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/amigoSecreto/SistemaAmigoMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaAmigoMapTest.java" afterDir="false" />
+    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Adicionando arquivos map, excetions e tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/CategoriaProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClienteNaoExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClientePF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClientePJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ProdutoNaoExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/SistemaComercialMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/sistemaComercial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -121,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722074624798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionando arquivos map, excetions e tests">
+      <option name="closed" value="true" />
+      <created>1723080433187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723080433187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +144,7 @@
     <MESSAGE value="adicionando JaExisteEsseCodException" />
     <MESSAGE value="Início do projeto Amigo Secreto" />
     <MESSAGE value="Atualização dos arquivos do projeto AmigoSecreto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização dos arquivos do projeto AmigoSecreto" />
+    <MESSAGE value="Adicionando arquivos map, excetions e tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando arquivos map, excetions e tests" />
   </component>
 </project>
