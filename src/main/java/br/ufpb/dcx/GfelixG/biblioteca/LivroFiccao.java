@@ -1,7 +1,5 @@
 package br.ufpb.dcx.GfelixG.biblioteca;
 
-import java.util.List;
-
 public class LivroFiccao extends Livro{
 
     private String tipoFiccao;

@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Adicionando arquivos map, excetions e tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/CategoriaProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClienteNaoExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClientePF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ClientePJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/ProdutoNaoExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/SistemaComercialMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/sistemaComercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagramas/diagramaAgendaPOO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAyla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/ContatoInexistenteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/GravadorDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/AgendaPOO/GravadorDeDadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/amigoSecreto/SistemaAmigoMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroFiccao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/biblioteca/LivroFiccao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/sistemaComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/sistemaComercial/SistemaComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaAmigoMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/biblioteca/SistemaBibliotecaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +43,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2jk0zDOKVGOS7XLSr1qKQXrsd6T" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -65,8 +68,13 @@
       <recent name="C:\Users\Gabriel F G\UFPB\diagramas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\diagramas" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\poo2024-1-main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.ufpb.dcx.GfelixG.biblioteca" />
+      <recent name="br.ufpb.dcx.GfelixG.amigoSecreto" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,6 +144,10 @@
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Obrigado Laisa" />
