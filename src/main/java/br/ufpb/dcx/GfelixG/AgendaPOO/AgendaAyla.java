@@ -1,5 +1,6 @@
 package br.ufpb.dcx.GfelixG.AgendaPOO;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.HashMap;
@@ -14,32 +15,58 @@ public class AgendaAyla implements Agenda {
         this.gravador = new GravadorDeDados();
     }
 
-
-    @Override
-    public boolean cadastraContato(String nome, int dia, int mes) {
-        //TODO
-        return false;
+    public HashMap<String, Contato> getContatos() {
+        return contatos;
     }
 
     @Override
-    public Collection<Contato> pesquisaAniversariantes(int dia, int mes) {
-        //TODO
-        return List.of();
+    public boolean cadastraContato(String nome, int dia, int mes) {
+        if(!contatos.containsKey(nome)){
+            Contato c1 = new Contato(nome, dia, mes);
+            contatos.put(nome, c1);
+            return true;
+        }
+        return false;
     }
 
     @Override
     public boolean removeContato(String nome) throws ContatoInexistenteException {
-        //TODO
-        return false;
+        if(contatos.containsKey(nome)){
+            contatos.remove(nome);
+            return true;
+        } else {
+            throw new ContatoInexistenteException();
+        }
     }
 
     @Override
-    public void salvarDados() throws IOException {
-        //TODO
+    public Collection<Contato> pesquisaAniversariantes(int dia, int mes) {
+        Collection<Contato> aniversariantes = new ArrayList<>();
+        for (Contato c : contatos.values()){
+            if(c.getDiaAniversario() == dia && c.getMesAniversario() == mes){
+                aniversariantes.add(c);
+            }
+        }
+        return aniversariantes;
     }
 
-    @Override
-    public void recuperarDados() throws IOException {
-        //TODO
+    public void salvarDados() throws IOException{
+        try {
+            gravador.SalvarContatos(contatos);
+        } catch (IOException e) {
+            System.err.println("Não foi possivel salvar");
+            e.printStackTrace();
+        }
+
+
+    }
+    public void recuperarDados() throws IOException{
+        try{
+            this.contatos = gravador.RecuperarContatos();
+        } catch (IOException e) {
+            System.err.println("Não foi possível recuperar");
+            e.printStackTrace();
+        }
+
     }
 }

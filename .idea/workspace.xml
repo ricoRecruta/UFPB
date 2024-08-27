@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Adicionando arquivos map, excetions e tests">
-      <change afterPath="$PROJECT_DIR$/imgs/LenoBrega.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/palhano.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/gui/AgendaGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAylaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagramaSistemaQuizNovo.png" beforeDir="false" afterPath="$PROJECT_DIR$/diagramas/diagramaSistemaQuizNovo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAyla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAyla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/gui/AgendaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/gui/AgendaGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +43,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AgendaGUI.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestaGUI.executor": "Run",
+    "Application.main.executor": "Run",
+    "JUnit.AgendaAylaTest.executor": "Run",
+    "JUnit.GravadorDeDadosTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -69,6 +70,7 @@
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\poo2024-1-main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.ufpb.dcx.GfelixG.AgendaPOO" />
       <recent name="br.ufpb.dcx.GfelixG.biblioteca" />
       <recent name="br.ufpb.dcx.GfelixG.amigoSecreto" />
     </key>

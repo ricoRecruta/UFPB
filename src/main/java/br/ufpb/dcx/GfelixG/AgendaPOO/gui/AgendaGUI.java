@@ -16,7 +16,7 @@ public class AgendaGUI extends JFrame {
         setLocation(150,150);
         setResizable(false);
         getContentPane().setBackground(Color.lightGray);
-        linha1 = new JLabel("Melhor Cantor!", JLabel.CENTER);
+        linha1 = new JLabel("Melhor Professor!", JLabel.CENTER);
         linha1.setForeground(Color.BLACK);
         linha1.setFont(new Font("Serif", Font.BOLD, 20));
 
