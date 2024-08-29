@@ -1,5 +1,8 @@
 package br.ufpb.dcx.GfelixG.AgendaPOO;
 
+import br.ufpb.dcx.GfelixG.POO.AgendaPOO.AgendaAyla;
+import br.ufpb.dcx.GfelixG.POO.AgendaPOO.Contato;
+import br.ufpb.dcx.GfelixG.POO.AgendaPOO.ContatoInexistenteException;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.Collection;
