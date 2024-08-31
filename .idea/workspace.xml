@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Adicionando arquivos map, excetions e tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAylaTest.java" afterDir="false" />
+    <list default="true" id="c425e1c2-ece4-4cd2-9060-0bfb4a6b6944" name="Changes" comment="Adicionando Pacote de Estrutura de Dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAyla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/AgendaAyla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/gui/AgendaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/AgendaPOO/gui/AgendaGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/EstruturaDeDados/DequeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufpb/dcx/GfelixG/EstruturaDeDados/DequeSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AgendaGUI.executor": "Run",
+    "Application.Deque.executor": "Run",
+    "Application.DequeSearch.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestaGUI.executor": "Run",
     "Application.main.executor": "Run",
@@ -55,7 +55,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gabriel.felix/IdeaProjects/UFPB/imgs",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,6 +64,7 @@
       <recent name="C:\Users\Gabriel F G\UFPB\diagramas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel F G\UFPB\src\main\java\br\ufpb\dcx\GfelixG\EstruturaDeDados" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\imgs" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB\diagramas" />
       <recent name="C:\Users\gabriel.felix\IdeaProjects\UFPB" />
@@ -140,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723080433187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionando Pacote de Estrutura de Dados">
+      <option name="closed" value="true" />
+      <created>1724969065582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724969065582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -155,6 +164,7 @@
     <MESSAGE value="Início do projeto Amigo Secreto" />
     <MESSAGE value="Atualização dos arquivos do projeto AmigoSecreto" />
     <MESSAGE value="Adicionando arquivos map, excetions e tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando arquivos map, excetions e tests" />
+    <MESSAGE value="Adicionando Pacote de Estrutura de Dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Pacote de Estrutura de Dados" />
   </component>
 </project>
