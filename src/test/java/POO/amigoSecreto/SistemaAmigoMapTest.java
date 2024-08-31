@@ -1,4 +1,4 @@
-package GfelixG.amigoSecreto;
+package POO.amigoSecreto;
 
 public class SistemaAmigoMapTest {
 }

@@ -1,7 +1,5 @@
-package GfelixG.AgendaPOO;
+package POO.AgendaPOO;
 
-import POO.AgendaPOO.Contato;
-import POO.AgendaPOO.GravadorDeDados;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.IOException;
