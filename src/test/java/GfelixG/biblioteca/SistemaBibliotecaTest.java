@@ -1,8 +1,8 @@
 package GfelixG.biblioteca;
 
-import GfelixG.POO.biblioteca.JaExisteEsseCodException;
-import GfelixG.POO.biblioteca.Livro;
-import GfelixG.POO.biblioteca.SistemaBiblioteca;
+import POO.biblioteca.JaExisteEsseCodException;
+import POO.biblioteca.Livro;
+import POO.biblioteca.SistemaBiblioteca;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

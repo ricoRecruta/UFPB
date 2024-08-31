@@ -1,8 +1,8 @@
 package GfelixG.AgendaPOO;
 
-import GfelixG.POO.AgendaPOO.AgendaAyla;
-import GfelixG.POO.AgendaPOO.Contato;
-import GfelixG.POO.AgendaPOO.ContatoInexistenteException;
+import POO.AgendaPOO.AgendaAyla;
+import POO.AgendaPOO.Contato;
+import POO.AgendaPOO.ContatoInexistenteException;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.Collection;
