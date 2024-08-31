@@ -1,4 +1,4 @@
-/******************************************************************************
+package EstruturaDeDados.ExeAvaliacao; /******************************************************************************
  *  Compilation:  javac StdOut.java
  *  Execution:    java StdOut
  *  Dependencies: none
