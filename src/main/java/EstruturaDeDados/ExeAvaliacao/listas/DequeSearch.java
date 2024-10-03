@@ -1,3 +1,5 @@
+package listas;
+
 import java.util.ListIterator;
 
 public class DequeSearch<Key, Item>implements Iterable<Item> {
@@ -85,6 +87,7 @@ public class DequeSearch<Key, Item>implements Iterable<Item> {
         }
         for (No x = Sentinela.prox; x != Sentinela; x = x.prox){
             if(key.equals(x.chave)){
+                x.dado = val;
                 return;
             }
         }
