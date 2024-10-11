@@ -21,6 +21,7 @@ public class ChainingHashST<Key, Value> {
      * Initializes an empty symbol table with {@code m} chains.
      * @param m the initial number of chains
      */
+    @SuppressWarnings("unchecked")
     public ChainingHashST(int m) {
         this.m = m;
         st = (DequeSearch<Key, Value>[]) new DequeSearch[m];
