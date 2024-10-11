@@ -1,5 +1,3 @@
-package EstruturaDeDados.ExeAvaliacao.hasTable;
-
 public class Cidade implements Comparable<Cidade>{
 
     private String nome;

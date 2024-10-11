@@ -1,5 +1,3 @@
-package listas;
-
 import java.util.ListIterator;
 
 public class Deque <Item> implements Iterable<Item> {

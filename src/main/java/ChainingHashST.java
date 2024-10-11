@@ -1,18 +1,14 @@
-package EstruturaDeDados.ExeAvaliacao.hasTable;
-
-
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
-import java.util.NoSuchElementException;
 
 public class ChainingHashST<Key, Value> {
     private static final int INIT_CAPACITY = 4;
 
     private int n; // number of key-value pairs
     private int m; // hash table size
-    private listas.DequeSearch<Key, Value>[] st; // array of linked-list symbol tables
+    private DequeSearch<Key, Value>[] st; // array of linked-list symbol tables
 
     /**
      * Initializes an empty symbol table.
@@ -27,9 +23,9 @@ public class ChainingHashST<Key, Value> {
      */
     public ChainingHashST(int m) {
         this.m = m;
-        st = (listas.DequeSearch<Key, Value>[]) new listas.DequeSearch[m];
+        st = (DequeSearch<Key, Value>[]) new DequeSearch[m];
         for (int i = 0; i < m; i++)
-            st[i] = new listas.DequeSearch<Key, Value>();
+            st[i] = new DequeSearch<Key, Value>();
     }
 
     // resize the hash table to have the given number of chains,
@@ -158,7 +154,7 @@ public class ChainingHashST<Key, Value> {
 
     // return keys in symbol table as an Iterable
     public Iterable<Key> keys() {
-        listas.Deque<Key> queue = new listas.Deque<Key>();
+        Deque<Key> queue = new Deque<Key>();
         for (int i = 0; i < m; i++)
             for (Key key : st[i].keys())
                 queue.push_back(key);

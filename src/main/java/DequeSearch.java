@@ -1,6 +1,3 @@
-package listas;
-
-
 import java.util.ListIterator;
 
 public class DequeSearch<Key, Item>implements Iterable<Item> {
