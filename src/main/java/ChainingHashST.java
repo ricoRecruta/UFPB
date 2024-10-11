@@ -1,5 +1,5 @@
-import java.io.FileReader;
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
@@ -19,6 +19,7 @@ public class ChainingHashST<Key, Value> {
 
     /**
      * Initializes an empty symbol table with {@code m} chains.
+     *
      * @param m the initial number of chains
      */
     @SuppressWarnings("unchecked")
@@ -52,7 +53,7 @@ public class ChainingHashST<Key, Value> {
     // (from Java 7 implementation, protects against poor quality hashCode() implementations)
     private int hash(Key key) {
         int h = Math.abs(key.hashCode());
-        double ftmp = ((Math.sqrt(5) - 1) / 2 ) * h;
+        double ftmp = ((Math.sqrt(5) - 1) / 2) * h;
         int itmp = (int) ftmp;
         ftmp = ftmp - itmp;
         itmp = (int) (ftmp * m);
@@ -76,7 +77,7 @@ public class ChainingHashST<Key, Value> {
      * Returns true if this symbol table is empty.
      *
      * @return {@code true} if this symbol table is empty;
-     *         {@code false} otherwise
+     * {@code false} otherwise
      */
     public boolean isEmpty() {
         return size() == 0;
@@ -88,7 +89,7 @@ public class ChainingHashST<Key, Value> {
      *
      * @param key the key
      * @return {@code true} if this symbol table contains {@code key};
-     *         {@code false} otherwise
+     * {@code false} otherwise
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public boolean contains(Key key) {
@@ -101,7 +102,7 @@ public class ChainingHashST<Key, Value> {
      *
      * @param key the key
      * @return the value associated with {@code key} in the symbol table;
-     *         {@code null} if no such value
+     * {@code null} if no such value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public Value get(Key key) {
@@ -128,7 +129,7 @@ public class ChainingHashST<Key, Value> {
         }
 
         // double table size if average length of list >= 10
-        if (n >= 10*m) resize(2*m);
+        if (n >= 10 * m) resize(2 * m);
 
         int i = hash(key);
         if (!st[i].contains(key)) n++;
@@ -150,7 +151,7 @@ public class ChainingHashST<Key, Value> {
         st[i].delete(key);
 
         // halve table size if average length of list <= 2
-        if (m > INIT_CAPACITY && n <= 2*m) resize(m/2);
+        if (m > INIT_CAPACITY && n <= 2 * m) resize(m / 2);
     }
 
     // return keys in symbol table as an Iterable
@@ -161,6 +162,7 @@ public class ChainingHashST<Key, Value> {
                 queue.push_back(key);
         return queue;
     }
+
     /**
      * Unit tests the {@code SeparateChainingHashST} data type.
      *
